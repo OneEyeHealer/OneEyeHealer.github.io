@@ -1,0 +1,307 @@
+@media (max-width: 1200px) {
+  .ct-pic-box {
+    width: 33.5%;
+  }
+
+  .ct-form-box {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .back-to-top-btn {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .op-box .otherProject {
+    gap: 4rem;
+  }
+
+  .ct-pic-box {
+    width: 100%;
+  }
+
+  .ct-form-box {
+    width: 100%;
+  }
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:991px) {
+  nav ul {
+    margin-left: 0rem;
+    margin-right: 2rem;
+  }
+
+  .ab-content-box,
+  .ab-pic-box {
+    width: 100%;
+    margin: 1rem auto;
+    justify-content: space-around;
+  }
+
+  .ab-content-box .ab-skillContainer-box {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width:770px) {
+  nav ul {
+    margin-right: 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back-to-top-btn {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    bottom: 6px;
+    right: 6px;
+  }
+
+  .cr_left {
+    left: -16%;
+  }
+
+  section .home-intro-box {
+    padding: 0 2rem;
+  }
+
+  section .large {
+    font-size: 3rem;
+  }
+
+  section .intro {
+    width: 99%;
+  }
+
+  .side_style-container {
+    display: none;
+  }
+
+  /* project section */
+  .whole-project:nth-of-type(2n+1) .featured_style-image {
+    height: auto;
+  }
+
+  .whole-project:nth-of-type(2n+1) .featured_style-content {
+    grid-column: 1 / -1;
+    padding: 40px 40px 30px;
+  }
+
+  .white-bg {
+    background-color: transparent;
+  }
+
+  .content-box {
+    z-index: 5;
+    grid-column: 1 / -1;
+    padding: 40px 30px 30px;
+  }
+
+  .projectName-box {
+    color: rgb(23, 42, 69);
+  }
+
+  .techList-box li {
+    color: rgb(23, 42, 69);
+  }
+
+  .linkWrapper-box a {
+    color: #00ffff;
+  }
+
+  .whole-project:nth-of-type(2n+1) .featured_style-image {
+    /* z-index:5; */
+    opacity: 0.55;
+    grid-column: 1 / -1;
+  }
+
+  .image-box-1 {
+    opacity: 0.75;
+    grid-column: 1 / -1;
+  }
+
+  .image-box-2 {
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+    filter: grayscale(0%) contrast(1) brightness(90%);
+  }
+
+  .description-box {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 10px 0px;
+  }
+
+  .description-box p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: white;
+  }
+  .ct-pic-box {
+    display: none;
+  }
+
+  .ct-form-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .nav-list {
+    width: 40%;
+    padding-bottom: 2rem;
+  }
+
+  .back-to-top-btn {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .cr_container-box {
+    width: 80%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .cr_container-box::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #5b86e5 transparent transparent;
+  }
+
+  .cr_left::after {
+    left: 20px;
+  }
+
+  .cr_right::after {
+    left: 15px;
+  }
+
+
+  .cr_left {
+    left: -1%;
+  }
+
+  .cr_right {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width:576px) {
+  section .intro {
+    width: 94%;
+  }
+
+  .op-box {
+    margin: 0 30px 0 0;
+  }
+
+  .horizontal-line {
+    margin-left: -15px;
+  }
+
+  .ab-content-box {
+    margin: 2.5rem;
+    width: 100%;
+  }
+
+  .image-box-1 div {
+    height: 6rem;
+  }
+
+  .horizontal-line::after,
+  .horizontal-line::before {
+    width: 4rem;
+  }
+  .ct-form-box {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .ct-form-box {
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 5rem;
+  }
+}
+
+@media screen and (max-width:440px) {
+  section .home-intro-box {
+    padding: 0 1rem;
+  }
+
+  .ab-pic-box {
+    width: 40%;
+  }
+
+  .ab-content-box {
+    margin: 2rem;
+    width: 100%;
+  }
+
+  .image-box-1 div {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo h1 span {
+    display: none;
+  }
+
+  .timeline {
+    margin-left: -1rem;
+    margin-right: 2rem;
+  }
+
+  section .large {
+    font-size: 2rem;
+  }
+
+  section .medium {
+    font-size: 1.5rem;
+  }
+
+  section .intro {
+    width: 93%;
+  }
+
+  .image-box-1 div {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .ab-content-box {
+    margin: 0 2.5rem 0 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .image-box-1 div {
+    height: 25rem;
+  }
+}

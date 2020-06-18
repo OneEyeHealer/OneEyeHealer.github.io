@@ -1,0 +1,120 @@
+/*-----------------------------*/
+/* Common styling code here */
+/*-----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:hover,
+*:focus {
+    outline: none;
+    outline: -webkit-focus-ring-color none 0px;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+svg {
+    width: auto;
+    height: 100%;
+    fill: currentcolor;
+    vertical-align: middle;
+}
+
+.btn {
+    color: #fff !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:visited {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+section:first-child {
+    margin: 0rem auto;
+}
+
+section {
+    min-height: 75vh;
+    height: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5rem auto;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+/* scroll event */
+/* width */
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 20rem;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #00ffff;
+}
+
+/* view more btn */
+.view-more span {
+    display: block;
+    max-width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.cr-view-more span {
+    display: block;
+    max-width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.view-active {
+    display: block;
+    transition: transform 0.5s ease-in;
+}

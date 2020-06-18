@@ -1,0 +1,179 @@
+/*---------------*/
+/*  About section */
+/*---------------*/
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+}
+
+div {
+    display: block;
+}
+
+.ab-about-box {
+    position: relative;
+    margin: 0px auto;
+}
+
+/* content-container section */
+.ab-container-box {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: flex-start;
+}
+
+.ab-content-box {
+    width: 60%;
+    max-width: 480px;
+    margin-right: 2.5rem;
+}
+
+.ab-content-box p {
+    margin: 0px 0px 15px;
+}
+
+.ab-content-box a {
+    display: inline-block;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    cursor: pointer;
+    color: rgb(112, 51, 255);
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+/* skills section */
+.ab-skillContainer-box {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+}
+
+.ab-skill-box {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: rgb(136, 146, 176);
+}
+
+.ab-skill-box::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: rgb(146, 100, 255);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* avatar container section */
+
+.ab-pic-box {
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    margin-left: 8rem;
+}
+
+.ab-pic-box a {
+    display: inline-block;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.ab-pic-box a:focus {
+    outline: 0px;
+}
+
+.ab-avatarLink-box {
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    width: 100%;
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.075); */
+    margin-left: -20px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+
+
+.ab-avatarLink-box::before {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(10, 25, 47, 0.116);
+    mix-blend-mode: screen;
+}
+
+/* outline of avatar img  */
+.ab-avatarLink-box::after {
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(168, 178, 209);
+    border-image: initial;
+    z-index: -1;
+}
+
+.ab-avatarLink-box::before,
+.ab-avatarLink-box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.ab-avatarLink-box:hover,
+.ab-avatarLink-box:focus {
+    background: transparent;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+}
+
+.ab-avatar-box {
+    position: relative;
+    mix-blend-mode: multiply;
+    filter: grayscale(0%) contrast(2);
+    z-index: 1;
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.ab-avatar-box:hover,
+.ab-avatar-box:focus {
+    filter: grayscale(0%) contrast(2);
+}
+
+.ab-avatar-box img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    transition-delay: 500ms;
+    z-index: 5; 
+}
+
+.ab-avatar-box img:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+
+}

@@ -1,0 +1,48 @@
+.footer-box {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    min-height: 90px;
+    padding: 0px;
+    background-image: linear-gradient(to right, #000000, #434343, #000000);
+}
+
+.metaData-box {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", monospace;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.link-box {
+    color: rgb(168, 178, 209) !important;
+    padding: 10px;
+}
+
+.info-box {
+    margin-top: 10px;
+}
+.info-box span{
+    margin: 0.2rem 0.4rem;
+}
+
+.info-box svg {
+    display: inline-block;
+    height: 15px;
+    width: auto;
+    margin-right: 5px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* it cause header list float-box shift */
+/* :not(svg) {
+    transform-origin: 0px 0px;
+} */

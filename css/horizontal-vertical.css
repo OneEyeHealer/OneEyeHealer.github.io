@@ -1,0 +1,100 @@
+
+.line {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+
+.leftLine {
+    left: 1.5rem;
+    right: auto;
+}
+
+.rightLine {
+    left: auto;
+    right: 1.5rem;
+}
+
+.vertical-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+.rightlane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mailID {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+    color:rgb(146, 100, 255);
+}
+
+.vertical-line li {
+    padding: 14px 15px;
+}
+
+.vertical-line li a i {
+    color: rgb(146, 100, 255);
+}
+
+.vertical-line li:hover,
+.vertical-line li:focus {
+    justify-content: space-around;
+    padding: auto;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 14px 10px;
+}
+
+.vertical-line::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-image: linear-gradient(180deg, #1a2980, #26d0ce, #8cc9f0);
+    margin: 0px auto;
+}
+
+.horizontal-line {
+    position: relative;
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    margin: 10px 0px 40px 0px;
+}
+
+.horizontal-line::after,
+.horizontal-line::before {
+    content: "";
+    height: 1px;
+    width: 30%;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: 0px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.hl-left::after {
+    background-image: linear-gradient(90deg, #1a2980, #26d0ce, #8cc9f0);
+}
+
+.hl-right::before {
+    background-image: linear-gradient(270deg, #1a2980, #26d0ce, #8cc9f0);
+}
