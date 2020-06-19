@@ -1,4 +1,4 @@
-// for loading screen 
+// for loading screen
 const loadding = () => {
   window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
@@ -84,7 +84,7 @@ const hm = () => {
   userName.innerHTML = "Harsh Arora";
   tagLine.innerHTML = `I don’t Inherit it,<br> I Earn by working in <a href="#">Bits</a> & <a href="#">Pixels</a>.`;
   msg.innerHTML =
-    "I'm a Freelencer by choice and CS Engineer by profession, build exceptional websites & applicaitions for ease.";
+    "I'm a Freelencer by choice and CS Engineer by profession, build exceptional websites & applications for ease.";
   location.innerHTML = `<h5><i class="fas fa-map-marker-alt"></i> <span>D</span>elhi, <span>I</span>ndia </h5>`;
 };
 //about section txt
@@ -116,7 +116,6 @@ const pj = () => {
   }
 };
 
-
 // toggle the carrer section
 const viewMoreCarrer = () => {
   const view = document.querySelector(".cr-view-more div");
@@ -140,7 +139,6 @@ const viewMoreCarrer = () => {
   };
   viewCall();
 };
-
 
 //mobile nav function
 const mobileNav = () => {
@@ -167,14 +165,13 @@ const mobileNav = () => {
 
 // scroll down with animation
 const scrollDown = () => {
-  const down = document.querySelector('.scrollToDown');
-  const icon = document.querySelector('.downArrow');
+  const down = document.querySelector(".scrollToDown");
+  const icon = document.querySelector(".downArrow");
 
   icon.innerHTML = `<i class="fas fa-angle-double-down"></i>`;
-  down.addEventListener('click', () => {
+  down.addEventListener("click", () => {
     window.scrollTo(0, 1000);
   });
-
 };
 const app = () => {
   loadding();
