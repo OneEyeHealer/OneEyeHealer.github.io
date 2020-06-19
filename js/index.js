@@ -84,7 +84,7 @@ const hm = () => {
   userName.innerHTML = "Harsh Arora";
   tagLine.innerHTML = `I don’t Inherit it,<br> I Earn by working in <a href="#">Bits</a> & <a href="#">Pixels</a>.`;
   msg.innerHTML =
-    "I'm a Freelencer by choice and CS Engineer by profession, build exceptional websites & applications for ease.";
+    "I'm a Freelencer by choice and CS Engineer by profession, build exceptional websites & application's for ease.";
   location.innerHTML = `<h5><i class="fas fa-map-marker-alt"></i> <span>D</span>elhi, <span>I</span>ndia </h5>`;
 };
 //about section txt
