@@ -71,9 +71,11 @@
 /* ------------------------------------------- */
 .scrollToDown span {
   display: block;
-  max-width: 50px;
+  width: auto;
+  position: relative;
+  left: -2rem;
   margin: 1rem auto;
-  font-size: 3rem;
+  font-size: 45px;
   cursor: pointer;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
