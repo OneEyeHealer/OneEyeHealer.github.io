@@ -226,7 +226,7 @@
   }
 
   .image-box-1 div {
-    height: 6rem;
+    height: 150%;
   }
 
   .horizontal-line::after,
@@ -289,7 +289,7 @@
   }
 
   .image-box-1 div {
-    height: 15rem;
+    height: 300px;
   }
 }
 
@@ -302,6 +302,11 @@
 
 @media screen and (max-width: 325px) {
   .image-box-1 div {
-    height: 25rem;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 276px) {
+  .image-box-1 div {
+    height: 600px;
   }
 }
