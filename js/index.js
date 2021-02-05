@@ -111,7 +111,7 @@ const pj = () => {
   };
   const paragraphsTxt = {
     1: "Projexel is founded with the vision to create most compelling and innovative RFST and IOT Technology. There Mission is to make 'Automaiton Simplified' where Chores are done hassle-free.",
-    2: "Projexel is founded with the vision to create most compelling and innovative RFST and IOT Technology. There Mission is to make 'Automaiton Simplified' where Chores are done hassle-free.",
+    2: "“Gear Fluids”is a unit of S SQUARE EMPOWER, a research and development-based Indian workhouse specializing in Scientific, Academic, Technical Industrial Services.",
   };
 
   for (let i = 1; i < 3; i++) {
