@@ -98,19 +98,23 @@ const ab = () => {
 const pj = () => {
   const pjNames = {
     1: document.querySelector(".pj-project_name-1"),
+    2: document.querySelector(".pj-project_name-2"),
   };
   const names = {
     1: "Projexel Technologies",
+    2: "GearFluids",
   };
 
   const paragraphs = {
     1: document.querySelector(".pj_description_p1"),
+    2: document.querySelector(".pj_description_p2"),
   };
   const paragraphsTxt = {
     1: "Projexel is founded with the vision to create most compelling and innovative RFST and IOT Technology. There Mission is to make 'Automaiton Simplified' where Chores are done hassle-free.",
+    2: "Projexel is founded with the vision to create most compelling and innovative RFST and IOT Technology. There Mission is to make 'Automaiton Simplified' where Chores are done hassle-free.",
   };
 
-  for (let i = 1; i < 2; i++) {
+  for (let i = 1; i < 3; i++) {
     pjNames[i].innerHTML = `<a href="#">${names[i]}</a>`;
     paragraphs[i].innerHTML = `<p>${paragraphsTxt[i]}</p>`;
   }
@@ -139,6 +143,28 @@ const viewMoreCarrer = () => {
   };
   viewCall();
 };
+// const viewMoreProject = () => {
+//   const view = document.querySelector(".view-more div");
+//   const viewInactive = document.querySelector(".view-inactive");
+//   const moreBox = document.querySelector(".viewMore-box");
+//   const text = document.querySelector(".btnTxt");
+
+//   const viewCall = () => {
+//     viewInactive.style.display = "none";
+//     text.innerHTML = `View More <i class="fas fa-chevron-circle-down"></i>`;
+//     moreBox.addEventListener("click", () => {
+//       view.classList.toggle("view-active");
+//       if (viewInactive.style.display === "none") {
+//         viewInactive.style.display = "inline";
+//         text.innerHTML = `View Less <i class="fas fa-chevron-circle-up"></i>`;
+//       } else {
+//         viewInactive.style.display = "none";
+//         text.innerHTML = `View More <i class="fas fa-chevron-circle-down"></i>`;
+//       }
+//     });
+//   };
+//   viewCall();
+// };
 
 //mobile nav function
 const mobileNav = () => {
@@ -182,6 +208,7 @@ const app = () => {
   ab();
   pj();
   viewMoreCarrer();
+  // viewMoreProject();
   mobileNav();
   scrollDown();
 };

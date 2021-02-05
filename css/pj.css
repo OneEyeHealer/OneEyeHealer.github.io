@@ -106,7 +106,6 @@
     color: rgb(163, 117, 201);
     margin: 0px 0px 20px;
   }
-  
   .projectName-box a {
     display: inline-block;
     text-decoration-skip-ink: auto;
@@ -184,7 +183,7 @@
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     position: relative;
     z-index: 1;
-    background-color: rgb(128, 128, 128);
+    /* background-color: rgb(112, 112, 112); */
     grid-column: 6 / -1;
     grid-row: 1 / -1;
     border-radius: 4px;
