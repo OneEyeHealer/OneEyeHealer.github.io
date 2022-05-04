@@ -91,7 +91,7 @@ const hm = () => {
 const ab = () => {
   // img box
   const avatar = document.querySelector(".ab_avtarImgPicture");
-  const avatarPath = "assets/img/Harsh-Arora.jpg";
+  const avatarPath = "assets/img/Harsh-Arora.png";
   avatar.innerHTML = `<img src="${avatarPath}" alt="Harsh Arora">`;
 };
 
